@@ -23,11 +23,7 @@ Proyek ini terdiri dari dua class utama:
 ## 💻 Hasil Running Program (Screenshot)
 Berikut adalah hasil tangkapan layar (*screenshot*) saat program dijalankan di terminal:
 
-**1. Hasil Transaksi Saldo Awal dan Transfer Berhasil:**
-![Hasil Transaksi Normal](ss PBO2(1).png)
-
-**2. Hasil Validasi Error (Transfer Melebihi Saldo):**
-![Validasi Error](ss PBO2(2).png)
+![Hasil Running Program](ss PBO2(1).png)
 
 *(Catatan: Pastikan file gambar screenshot kamu dengan nama `Screenshot (14).png` berada di dalam folder yang sama dengan file README.md ini agar gambarnya muncul dengan sempurna).*
 
