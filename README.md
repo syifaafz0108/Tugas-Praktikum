@@ -1,22 +1,22 @@
-# Proyek PBO: Sistem Rekening Bank (Enkapsulasi & Static Keyword)
+# Proyek PBO: Sistem Rekening Bank
 
-Repositori ini berisi tugas praktikum Pemrograman Berbasis Objek (PBO) Pertemuan 3 yang berfokus pada penerapan konsep **Enkapsulasi (Data Hiding)** dan **Static Keyword** di Java.
+Repositori ini berisi kodingan tugas praktikum Pemrograman Berbasis Objek (PBO) Pertemuan 3. Di sini saya belajar cara menerapkan konsep **Enkapsulasi** (menyembunyikan data biar aman) dan penggunaan **Static Keyword** di bahasa pemrograman Java.
 
 ---
 
 ## 📂 Struktur Proyek
-Proyek ini terdiri dari dua class utama:
-1. **`RekeningBank.java`**: Class blueprint yang menerapkan atribut privat, constructor dengan validasi saldo minimal, *getter & setter*, static variable untuk menghitung total rekening, serta method bisnis (transfer).
-2. **`MainBank.java`**: Class *test runner* untuk menjalankan program, menguji validasi, melakukan transaksi transfer antar rekening, dan menampilkan status akhir.
+Di dalam proyek ini ada dua file utama yang saling terhubung:
+1. **`RekeningBank.java`**: Ini *blueprint* (cetak biru) utamanya. Isinya ada atribut yang diprivat, constructor buat validasi saldo awal, getter-setter, penghitung total rekening pakai static, sama fitur buat transfer uang.
+2. **`MainBank.java`**: Ini file buat nge-run programnya. Di sinilah saya bikin objek rekening, nyoba transfer saldo antar akun, dan ngetes validasi error-nya.
 
 ---
 
-## 🚀 Penjelasan Fitur & Konsep
-* **Atribut Privat (Data Hiding)**: Atribut seperti `noRekening`, `namaPemilik`, dan `saldo` dilindungi dengan modifier `private` agar tidak bisa diakses secara langsung dari luar class.
-* **Validasi Saldo Awal**: Constructor memastikan bahwa setiap pembuatan rekening baru harus memiliki saldo awal minimal **Rp50.000**. Jika kurang, saldo otomatis diset ke `0` dan menampilkan pesan *error*].
-* **Getter & Setter**: Method publik (`getSaldo()` dan `setSaldo()`) digunakan sebagai pintu aman untuk membaca dan mengubah data saldo.
-* **Static Variable**: Variabel `totalRekening` digunakan untuk menghitung jumlah total objek rekening yang berhasil diinisialisasi.
-* **Method Transfer**: Memungkinkan pengiriman dana antar objek `RekeningBank` dengan validasi kecukupan saldo.
+## 🚀 Fitur yang Dibuat
+* **Atribut yang Diprivat (Data Hiding)**: Data penting kayak nomor rekening, nama pemilik, sama saldo sengaja saya set `private` supaya gak bisa diubah sembarangan dari luar class.
+* **Validasi Saldo Awal**: Jadi kalau bikin rekening baru, sistem bakal ngecek dulu. Minimal harus ada saldo **Rp50.000**. Kalau kurang, otomatis bakal muncul pesan error dan saldo diset jadi `0`.
+* **Getter & Setter**: Method khusus (`getSaldo` dan `setSaldo`) yang bertindak sebagai jalur resmi dan aman buat baca atau ngerubah nilai saldo.
+* **Static Variable**: Variabel `totalRekening` dipakai buat ngitung otomatis ada berapa banyak akun rekening yang berhasil dibuat.
+* **Fitur Transfer**: Bisa ngirim saldo antar rekening dengan aman, lengkap dengan pengecekan apakah saldo pengirimnya cukup atau nggak.
 
 ---
 
