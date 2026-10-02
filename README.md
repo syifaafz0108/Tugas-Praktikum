@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="ss PBO2 (2)" src="https://github.com/user-attachments/assets/a3840d34-9e5d-4ad4-a3e5-64ab1c0d2222" /># Proyek PBO: Sistem Rekening Bank (Enkapsulasi & Static Keyword)
+# Proyek PBO: Sistem Rekening Bank (Enkapsulasi & Static Keyword)
 
 Repositori ini berisi tugas praktikum Pemrograman Berbasis Objek (PBO) Pertemuan 3 yang berfokus pada penerapan konsep **Enkapsulasi (Data Hiding)** dan **Static Keyword** di Java[cite: 54].
 
@@ -23,8 +23,11 @@ Proyek ini terdiri dari dua class utama:
 ## 💻 Hasil Running Program (Screenshot)
 Berikut adalah hasil tangkapan layar (*screenshot*) saat program dijalankan di terminal:
 
-![Hasil Running Program](ss PBO2 (1).png)
-![Hasil Running Program](ss PBO2 (2).png)
+**1. Hasil Transaksi Saldo Awal dan Transfer Berhasil:**
+![Hasil Transaksi Normal](ss PBO2(1).png)
+
+**2. Hasil Validasi Error (Transfer Melebihi Saldo):**
+![Validasi Error](ss PBO2(2).png)
 
 *(Catatan: Pastikan file gambar screenshot kamu dengan nama `Screenshot (14).png` berada di dalam folder yang sama dengan file README.md ini agar gambarnya muncul dengan sempurna).*
 
