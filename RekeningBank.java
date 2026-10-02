@@ -1,14 +1,14 @@
 public class RekeningBank {
     
-    // Atribut Private (Enkapsulasi)[cite: 54]
+    // Atribut Private (Enkapsulasi)
     private String noRekening;
     private String namaPemilik;
     private double saldo;
 
-    // Static Variable untuk menghitung total rekening[cite: 54]
+    // Static Variable untuk menghitung total rekening
     public static int totalRekening = 0;
 
-    // Constructor + Validasi Saldo Minimal Rp50.000[cite: 54]
+    // Constructor + Validasi Saldo Minimal Rp50.000
     public RekeningBank(String noRekening, String namaPemilik, double saldoAwal) {
         this.noRekening = noRekening;
         this.namaPemilik = namaPemilik;
@@ -20,15 +20,15 @@ public class RekeningBank {
             this.saldo = 0;
         }
 
-        totalRekening++; // Bertambah otomatis setiap objek dibuat[cite: 54]
+        totalRekening++; // Bertambah otomatis setiap objek dibuat
     }
 
-    // Getter untuk membaca nilai saldo[cite: 54]
+    // Getter untuk membaca nilai saldo
     public double getSaldo() {
         return this.saldo;
     }
 
-    // Setter untuk mengubah nilai saldo[cite: 54]
+    // Setter untuk mengubah nilai saldo
     public void setSaldo(double saldoBaru) {
         if (saldoBaru >= 0) {
             this.saldo = saldoBaru;
@@ -37,7 +37,7 @@ public class RekeningBank {
         }
     }
 
-    // Method Bisnis: Transfer antar rekening[cite: 54]
+    // Method Bisnis: Transfer antar rekening
     public void transfer(double nominal, RekeningBank tujuan) {
         if (nominal > 0 && nominal <= this.saldo) {
             this.saldo -= nominal;              // Saldo pengirim berkurang
