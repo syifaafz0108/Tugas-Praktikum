@@ -24,10 +24,10 @@ Proyek ini terdiri dari dua class utama:
 Berikut adalah hasil tangkapan layar (*screenshot*) saat program dijalankan di terminal:
 
 **1. Hasil Transaksi Saldo Awal dan Transfer Berhasil:**
-![Hasil Transaksi Normal](ss PBO2 (1).png)
+![Hasil Transaksi Normal](PBO2(1).png)
 
 **2. Hasil Validasi Error (Transfer Melebihi Saldo):**
-![Validasi Error](ss PBO2 (2).png)
+![Validasi Error](PBO2(2).png)
 
 ---
 
