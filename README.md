@@ -24,10 +24,10 @@ Di dalam proyek ini ada dua file utama yang saling terhubung:
 Berikut adalah hasil tangkapan layar (*screenshot*) saat program dijalankan di terminal:
 
 **1. Hasil Transaksi Saldo Awal dan Transfer Berhasil:**
-![Hasil Transaksi Normal](PBO2(1).png)
+![Hasil Transaksi Normal](PBO(1).jpeg)
 
 **2. Hasil Validasi Error (Transfer Melebihi Saldo):**
-![Validasi Error](PBO2(2).png)
+![Validasi Error](PBO(2).jpeg)
 
 ---
 
